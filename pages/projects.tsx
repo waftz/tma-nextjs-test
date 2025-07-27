@@ -32,8 +32,10 @@ export default function Projects({ post }: Props) {
       <p className="text-sm text-gray-600 flex items-center">
       </p>
       <div className="text-gray-900 font-bold text-xl mb-2">TEST FETCH API</div>
-      <p className="text-gray-700 text-base">{post.setup}</p>
-      <p className="text-gray-700 text-base">{post.punchline}</p>
+      <p className="text-gray-700 text-base">Type : {post.type}</p>
+      <p className="text-gray-700 text-base">Setup : {post.setup}</p>
+      <p className="text-gray-700 text-base">Punchline : {post.punchline}</p>
+      <p className="text-gray-700 text-base">ID : {post.id}</p>
     </div>
     <div className="flex items-center">
       <div className="text-sm">
