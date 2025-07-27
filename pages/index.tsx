@@ -23,7 +23,7 @@ export default function Landing() {
     <div className="flex items-center">
       <div className="text-sm">
         <p className="text-gray-900 leading-none">wafiamna</p>
-        <p className="text-gray-600">July 27</p>
+        <p className="text-gray-600">July 27, 2025</p>
       </div>
     </div>
   </div>
